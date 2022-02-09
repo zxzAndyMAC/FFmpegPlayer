@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ffmpeg">
+      <UniqueIdentifier>{0b277c65-f286-4331-ba3a-5abc207e5bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg\include">
+      <UniqueIdentifier>{c9f6e487-008a-4647-988a-7fe0359b11e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg\source">
+      <UniqueIdentifier>{6626836b-7620-450b-81db-08430c4b5255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{d96a1a7b-27e1-4dce-89fd-d6c7b1221e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\include">
+      <UniqueIdentifier>{cf0744e4-fa81-43ff-9255-d044e4d12f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\source">
+      <UniqueIdentifier>{6c5318a4-006b-4a44-b447-b6e146cd770b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YUV">
+      <UniqueIdentifier>{941f04ed-0746-4706-a6b6-df1edaa97b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YUV\include">
+      <UniqueIdentifier>{b621cea7-c161-4379-a00e-6caf92246016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YUV\include\libyuv">
+      <UniqueIdentifier>{639e78d7-ec26-4e91-a1b2-6c0aa0ddf46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YUV\source">
+      <UniqueIdentifier>{d6babaf4-fccb-4762-8825-b09b1dd72434}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FrameQueue.cpp">
+      <Filter>ffmpeg\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IFFmpeg.cpp">
+      <Filter>ffmpeg\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MediaState.cpp">
+      <Filter>ffmpeg\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PacketQueue.cpp">
+      <Filter>ffmpeg\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\compare.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\compare_common.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\compare_gcc.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\compare_neon.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\compare_neon64.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\compare_win.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\convert.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\convert_argb.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\convert_from.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\convert_from_argb.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\convert_jpeg.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\convert_to_argb.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\convert_to_i420.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\cpu_id.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\mjpeg_decoder.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\mjpeg_validate.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\planar_functions.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate_any.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate_argb.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate_common.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate_gcc.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate_mips.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate_neon.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate_neon64.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\rotate_win.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\row_any.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\row_common.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\row_gcc.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\row_mips.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\row_neon.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\row_neon64.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\row_win.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale_any.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale_argb.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale_common.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale_gcc.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale_mips.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale_neon.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale_neon64.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\scale_win.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libyuv\source\video_common.cc">
+      <Filter>YUV\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdl\src\ISDLAudio.cpp">
+      <Filter>SDL\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLAudio.cpp">
+      <Filter>ffmpeg\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdl\src\SDLAudioManager.cpp">
+      <Filter>SDL\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLAudio.cpp">
+      <Filter>ffmpeg\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ICamera.cpp">
+      <Filter>ffmpeg\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FrameQueue.h">
+      <Filter>ffmpeg\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MediaState.h">
+      <Filter>ffmpeg\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PacketQueue.h">
+      <Filter>ffmpeg\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\structs.h">
+      <Filter>ffmpeg\source</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFFmpeg.h">
+      <Filter>ffmpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv.h">
+      <Filter>YUV\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\basic_types.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\compare.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\compare_row.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\convert.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\convert_argb.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\convert_from.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\convert_from_argb.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\cpu_id.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\mjpeg_decoder.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\planar_functions.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\rotate.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\rotate_argb.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\rotate_row.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\row.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\scale.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\scale_argb.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\scale_row.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\version.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libyuv\include\libyuv\video_common.h">
+      <Filter>YUV\include\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdl\include\ISDLAudio.h">
+      <Filter>SDL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLAudio.h">
+      <Filter>ffmpeg\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdl\src\SDLAudioManager.h">
+      <Filter>SDL\source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLAudio.h">
+      <Filter>ffmpeg\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

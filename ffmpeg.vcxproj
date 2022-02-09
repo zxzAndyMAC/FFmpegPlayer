@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libyuv\source\compare.cc" />
+    <ClCompile Include="..\libyuv\source\compare_common.cc" />
+    <ClCompile Include="..\libyuv\source\compare_gcc.cc" />
+    <ClCompile Include="..\libyuv\source\compare_neon.cc" />
+    <ClCompile Include="..\libyuv\source\compare_neon64.cc" />
+    <ClCompile Include="..\libyuv\source\compare_win.cc" />
+    <ClCompile Include="..\libyuv\source\convert.cc" />
+    <ClCompile Include="..\libyuv\source\convert_argb.cc" />
+    <ClCompile Include="..\libyuv\source\convert_from.cc" />
+    <ClCompile Include="..\libyuv\source\convert_from_argb.cc" />
+    <ClCompile Include="..\libyuv\source\convert_jpeg.cc" />
+    <ClCompile Include="..\libyuv\source\convert_to_argb.cc" />
+    <ClCompile Include="..\libyuv\source\convert_to_i420.cc" />
+    <ClCompile Include="..\libyuv\source\cpu_id.cc" />
+    <ClCompile Include="..\libyuv\source\mjpeg_decoder.cc" />
+    <ClCompile Include="..\libyuv\source\mjpeg_validate.cc" />
+    <ClCompile Include="..\libyuv\source\planar_functions.cc" />
+    <ClCompile Include="..\libyuv\source\rotate.cc" />
+    <ClCompile Include="..\libyuv\source\rotate_any.cc" />
+    <ClCompile Include="..\libyuv\source\rotate_argb.cc" />
+    <ClCompile Include="..\libyuv\source\rotate_common.cc" />
+    <ClCompile Include="..\libyuv\source\rotate_gcc.cc" />
+    <ClCompile Include="..\libyuv\source\rotate_mips.cc" />
+    <ClCompile Include="..\libyuv\source\rotate_neon.cc" />
+    <ClCompile Include="..\libyuv\source\rotate_neon64.cc" />
+    <ClCompile Include="..\libyuv\source\rotate_win.cc" />
+    <ClCompile Include="..\libyuv\source\row_any.cc" />
+    <ClCompile Include="..\libyuv\source\row_common.cc" />
+    <ClCompile Include="..\libyuv\source\row_gcc.cc" />
+    <ClCompile Include="..\libyuv\source\row_mips.cc" />
+    <ClCompile Include="..\libyuv\source\row_neon.cc" />
+    <ClCompile Include="..\libyuv\source\row_neon64.cc" />
+    <ClCompile Include="..\libyuv\source\row_win.cc" />
+    <ClCompile Include="..\libyuv\source\scale.cc" />
+    <ClCompile Include="..\libyuv\source\scale_any.cc" />
+    <ClCompile Include="..\libyuv\source\scale_argb.cc" />
+    <ClCompile Include="..\libyuv\source\scale_common.cc" />
+    <ClCompile Include="..\libyuv\source\scale_gcc.cc" />
+    <ClCompile Include="..\libyuv\source\scale_mips.cc" />
+    <ClCompile Include="..\libyuv\source\scale_neon.cc" />
+    <ClCompile Include="..\libyuv\source\scale_neon64.cc" />
+    <ClCompile Include="..\libyuv\source\scale_win.cc" />
+    <ClCompile Include="..\libyuv\source\video_common.cc" />
+    <ClCompile Include="..\sdl\src\ISDLAudio.cpp" />
+    <ClCompile Include="..\sdl\src\SDLAudioManager.cpp" />
+    <ClCompile Include="src\FrameQueue.cpp" />
+    <ClCompile Include="src\ICamera.cpp" />
+    <ClCompile Include="src\IFFmpeg.cpp" />
+    <ClCompile Include="src\MediaState.cpp" />
+    <ClCompile Include="src\PacketQueue.cpp" />
+    <ClCompile Include="src\SDLAudio.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libyuv\include\libyuv.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\basic_types.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\compare.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\compare_row.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\convert.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\convert_argb.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\convert_from.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\convert_from_argb.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\cpu_id.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\mjpeg_decoder.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\planar_functions.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\rotate.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\rotate_argb.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\rotate_row.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\row.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\scale.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\scale_argb.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\scale_row.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\version.h" />
+    <ClInclude Include="..\libyuv\include\libyuv\video_common.h" />
+    <ClInclude Include="..\sdl\include\ISDLAudio.h" />
+    <ClInclude Include="..\sdl\src\SDLAudioManager.h" />
+    <ClInclude Include="include\IFFmpeg.h" />
+    <ClInclude Include="src\FrameQueue.h" />
+    <ClInclude Include="src\MediaState.h" />
+    <ClInclude Include="src\PacketQueue.h" />
+    <ClInclude Include="src\SDLAudio.h" />
+    <ClInclude Include="src\structs.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7DA6C574-9663-4B27-AFC9-9643EF13DD2F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ffmpeg</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Lib\$(Configuration)\</OutDir>
+    <IncludePath>.\ffmpeg_header;.\ffmpeg_header\SDL\;.\src;.\include;..\libyuv\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\lib;$(LibraryPath)</LibraryPath>
+    <IntDir>$(SolutionDir)MakeFile\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)MakeFile\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>.\ffmpeg_header;.\ffmpeg_header\SDL\;.\src;.\include;..\libyuv\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBYUV_EXPORTS;FFMPEG_EXPORTS;FFMPEG_DUMP;LIBYUV_BUILDING_SHARED_LIBRARY;_CRT_SECURE_NO_WARNINGS;IFF_EXPORTS;ISDL_EXPORTS;OBSRECORDING_EXPORTS;DL_OPENGL="libobs-opengl.dll";DL_D3D11="libobs-d3d11.dll";IOSB_EXPORTS;OBS_USE_EXEDIR=1;OBS_OPEN_LOG;OBS_CPU_INFO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../libyuv/include;../sdl/src/SDL_mixer;../sdl/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>avcodec.lib;avformat.lib;avutil.lib;avdevice.lib;avfilter.lib;postproc.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../sdl/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)Bin\$(Configuration)" mkdir "$(SolutionDir)Bin\$(Configuration)"
+xcopy /Y /Q "$(TargetPath)" $(SolutionDir)Bin\$(Configuration)
+xcopy /Y /Q "$(ProjectDir)dll\*.dll" $(SolutionDir)Bin\$(Configuration)
+xcopy /Y /Q "$(ProjectDir)..\sdl\dll\*.dll" $(SolutionDir)Bin\$(Configuration)</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;FFMPEG_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBYUV_EXPORTS;FFMPEG_EXPORTS;LIBYUV_BUILDING_SHARED_LIBRARY;_CRT_SECURE_NO_WARNINGS;IFF_EXPORTS;ISDL_EXPORTS;OBSRECORDING_EXPORTS;DL_OPENGL="libobs-opengl.dll";DL_D3D11="libobs-d3d11.dll";IOSB_EXPORTS;OBS_USE_EXEDIR=1;OBS_CPU_INFO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../libyuv/include;../sdl/src/SDL_mixer;../sdl/include;../obs/include;../obs/third_party_headers;../obs/src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../sdl/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>avcodec.lib;avformat.lib;avutil.lib;avdevice.lib;avfilter.lib;postproc.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)Bin\$(Configuration)" mkdir "$(SolutionDir)Bin\$(Configuration)"
+xcopy /Y /Q "$(TargetPath)" $(SolutionDir)Bin\$(Configuration)
+xcopy /Y /Q "$(ProjectDir)dll\*.dll" $(SolutionDir)Bin\$(Configuration)
+xcopy /Y /Q "$(ProjectDir)..\sdl\dll\*.dll" $(SolutionDir)Bin\$(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;FFMPEG_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
